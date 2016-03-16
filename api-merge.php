@@ -84,7 +84,7 @@
     
             foreach (glob('./userID/*', GLOB_ONLYDIR) as $userID) {
                   $id = filter_var($userID, FILTER_SANITIZE_NUMBER_INT);
-                  $users[$i] = display($id);
+                  $users[$i] = viewUser($id);
                   $i++;
             }
             return $users;
