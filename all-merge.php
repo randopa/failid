@@ -21,9 +21,9 @@
 <td>
 <a href="one-merge.php?id=' .
 $oneUser["id"] . '">View</a>
-<a href="edit.php?id=' .
+<a href="edit-merge.php?id=' .
 $oneUser["id"] . '">Edit</a>
-<a href="delete.php?id=' .
+<a href="delete-merge.php?id=' .
 $oneUser["id"] . '">Delete</a>
 </td>
 </tr>';
