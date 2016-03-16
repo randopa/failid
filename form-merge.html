@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang ="et">
+<head>
+        <meta charset="utf-8">
+        <title> Registration </title>
+</head>
+<body>
+        <form action="save-merge.php" method="post" enctype="multipart/form-data">
+                Name:<input type="text" name="name" required><br>
+                Phone number:<input type="text" name="phone" required><br>
+                <input type="radio" name="gender" value=male" required>Male<br>
+                <input type="radio" name="gender" value="female"required>Female<br>
+                Picture:<br>
+                <input type="file" name="img" accept="image/*" required><br>
+                <textarea rows="4" name="comment" placeholder="Write your comment here" required></textarea><br>
+                <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
