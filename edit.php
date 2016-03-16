@@ -20,7 +20,6 @@
                 <img src="<?php print "./kasutaja/$id/pilt.jpg"; ?>" height="100" width="100"><br>
                 <input type="file" name="img" accept="image/*"><br>
                 <textarea rows="3" name="muu" placeholder="Milles mure?" required><?php print $andmed["muu"]; ?></textarea><br>
-                <input type="hidden" name"aeg" value="<?php print $andmed["aeg"]; ?>">
                 <input type="submit" value="Submit"> <br>              
                 Loomisaeg: <?php print $andmed["aeg"]; ?><br>
 
