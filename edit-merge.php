@@ -11,7 +11,7 @@
                 $data = viewUser($id);
          ?>
 
-         <form action="save.php?id=<?php print $data["id"]; ?>" method="post" enctype="multipart/form-data">
+         <form action="save-merge.php?id=<?php print $data["id"]; ?>" method="post" enctype="multipart/form-data">
                 Name: <input type="text" name="name" value="<?php print $data["name"]; ?>" required<br>
                 Phone number: <input type="text" name="phone" value="<?php print $data["phone"]; ?>" required<br>
                 Gender: <input value="male1" type="radio" name="gender" <?php print ($data["gender"] == "Male" ? "checked" : ""); ?> >Male
