@@ -18,7 +18,7 @@
    else {
            loo($fill);
    }
-
+ 
    header("Location:http://robert.vkhk.ee/~rando.pallon/kool/III/htmljaphp/katse/all.php");
    die();
 ?>
