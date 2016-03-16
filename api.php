@@ -57,7 +57,7 @@
               $tel = $andmed["tel"];
               $sex = $andmed["sex"];
               $muu = $andmed["muu"];
-              $aeg = strtotime(str_replace('/', '-', $andmed["aeg"]));
+              $aeg =time();
               $file = $andmed["pilt"];     
               
               $akoht = "./kasutaja/$id";
