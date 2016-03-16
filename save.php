@@ -13,7 +13,6 @@
 
    if (isset($_GET["id"])) {
            $fill["id"] = $_GET["id"];
-           $fill["aeg"] = $_POST['aeg'];
            muuda($fill);
    }
    else {
