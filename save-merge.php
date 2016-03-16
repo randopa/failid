@@ -16,6 +16,6 @@
            createUser($userData);
    }
  
-   header("Location:http://robert.vkhk.ee/~rando.pallon/kool/III/htmljaphp/katse/all-merge.php");
+   header("Location:http://robert.vkhk.ee/~rando.pallon/kool/III/htmljaphp/katse/merge/all-merge.php");
    die();
 ?>
