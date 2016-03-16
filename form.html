@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang ="et">
+<head>
+        <meta charset="utf-8">
+        <title> Registreerimine </title>
+</head>
+<body>
+        <form action="save.php" method="post" enctype="multipart/form-data">
+                Nimi:<input type="text" name="nimi" required><br>
+                Telefon:<input type="text" name="tel" required><br>
+                <input type="radio" name="sex" value="mees" required>Mees<br>
+                <input type="radio" name="sex" value="naine"required>Naine<br>
+                Lisa pilt:<br>
+                <input type="file" name="img" accept="image/*" required><br>
+                <textarea rows="4" name="muu" placeholder="Milles mure?" required></textarea><br>
+                <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
